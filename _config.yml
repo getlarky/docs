@@ -5,7 +5,7 @@ title: getlarky.github.io/docs
 description: > 
   Example description...
   TODO: replace with actual
-baseurl: ""		# no trailing slash
+baseurl: "/docs"		# no trailing slash
 url: "http://getlarky.github.io/docs"	# no trailing slash
 excerpt_separator: <!--more—->
 
