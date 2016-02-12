@@ -1,0 +1,36 @@
+
+# Site settings
+title: getlarky.github.io/docs
+# email: your-email@domain.com
+description: > 
+  Example description...
+  TODO: replace with actual
+baseurl: ""		# no trailing slash
+url: "http://getlarky.github.io/docs"	# no trailing slash
+excerpt_separator: <!--more—->
+
+about: > 
+  Integrate Larky's location-based notifications and perk data into your app with our easy-to-use libraries.
+footer: > 
+  © 2016 Larky, Inc. All Rights Reserved.
+twitter_username:    larkydavid
+github_username:     getlarky
+#facebook_username:   TODO
+#linkedin_username:   TODO
+#google_username:     TODO
+#youtube_username:    ishotjrdotcom
+#instagram_username:  ishjr
+#reddit_username:     ishjr
+#tumblr_username:     ishotjr
+#lastfm_username:  	 ishotjrdotcom
+#soundcloud_username: ishjr
+#miiverse_username:   ishotjr
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+gems:
+- jemoji
