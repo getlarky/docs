@@ -8,4 +8,4 @@ permalink: /about/
 # categories: 
 ---
 
-***TODO***
+Larky integration adds location-based notifications and valuable perk data to your native or hybrid mobile app with our easy-to-use libraries.

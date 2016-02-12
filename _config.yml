@@ -10,7 +10,7 @@ url: "http://getlarky.github.io/docs"	# no trailing slash
 excerpt_separator: <!--more—->
 
 about: > 
-  Integrate Larky's location-based notifications and perk data into your app with our easy-to-use libraries.
+  Larky integration adds location-based notifications and valuable perk data to your native or hybrid mobile app with our easy-to-use libraries.
 footer: > 
   © 2016 Larky, Inc. All Rights Reserved.
 twitter_username:    larkydavid
