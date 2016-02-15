@@ -72,6 +72,31 @@ The Larky library requires the following permissions to be present in your Andro
 
 Larky supports API 12 and above.  
 
+---
+
+## Notifications
+
+## Organizations
+
+## Users
+
+## Account Federation
+
+## Memberships
+
+## Categories
+
+## Merchants
+
+## Perks
+
+## Redemption
+
+## Affiliations
+
+## Miscellaneous
+
+---
 
 ## FAQ
 
