@@ -10,7 +10,68 @@ permalink: /android/
 
 ## Getting Started
 
-Beef ribs shoulder porchetta short ribs. Leberkas sausage frankfurter fatback pork belly. Flank shankle tongue corned beef ham. Bresaola jowl kevin, bacon tail pig short loin cow. Short loin drumstick swine, sausage tongue salami chuck cow pancetta pig turkey. Pork tri-tip boudin pork belly salami, cow landjaeger. Doner pancetta rump, ham short ribs prosciutto tenderloin.
+Larky for Android makes it easy to add location-based notifications and valuable perk data to your native Android app.  Getting started is as easy as adding `larky-{version}.jar` to your `libs` folder and initializing a singleton which can be used throughout your application:  
+
+```
+Larky larky = new Larky.LarkyBuilder(YOUR_LARKY_API_KEY).build();
+Larky.initialize(larky);
+
+larky.larky().getPerks(...);
+```
+
+Result:  
+
+``` json
+{
+	"perks":[
+	{
+		"id":7048,
+		"merchant_id":31,
+		"perk_type_id":",3,57,",
+		"organization_id":222,
+		"member_level_id":1,
+		"description":"Get 10% off produce every Wednesday.",
+		"expiry_date":null,
+		"is_fav":false,
+		"is_new":false,
+		"organization_name":"Blue Cross Blue Shield of Michigan - Healthy Blue Xtras",
+		"redeem":null
+	},
+	{
+		"id":7021,
+		"merchant_id":32,
+		"perk_type_id":",14,56,",
+		"organization_id":222,
+		"member_level_id":1,
+		"description":"15% off total order. ",
+		"expiry_date":null,
+		"is_fav":false,
+		"is_new":false,
+		"organization_name":"Blue Cross Blue Shield of Michigan - Healthy Blue Xtras",
+		"redeem":null
+	}],
+	"is_last":false
+}
+```
+
+### Permissions
+
+The Larky library requires the following permissions to be present in your AndroidManifest.xml file:  
+
+```
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+```
+
+Larky supports API 12 and above.  
+
 
 ## FAQ
 
