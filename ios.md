@@ -10,9 +10,19 @@ permalink: /ios/
 
 ## Getting Started
 
-Larky for iOS makes it easy to add location-based notifications and valuable perk data to your native iOS app.  Getting started is as easy as TODO:  
+Larky for iOS makes it easy to add location-based notifications and valuable perk data to your native iOS app.  Getting started is as easy as dragging the contents of Larky.zip into your Xcode project, then initializing: 
 
-### Permissions
+```
+[LARLibrary setupWithConfiguration:[LARLibraryConfiguration configurationWithWriteKey:@"YOUR_LARKY_API_KEY"]];
+```
+
+in `application:didFinishLaunchingWithOptions:`, and adding:
+
+`#import <Larky/LARLibrary.h>`
+
+to any files from which you want to use it.
+
+### Build Settings
 
 ---
 
