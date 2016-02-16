@@ -10,23 +10,86 @@ permalink: /ios/
 
 ## Getting Started
 
-Meatball boudin short ribs pancetta ground round landjaeger chicken. Turducken tenderloin ribeye kielbasa tail kevin porchetta doner filet mignon. Spare ribs tongue ground round, fatback chuck ball tip porchetta. Boudin short loin jowl doner cow frankfurter, picanha ribeye ground round meatloaf salami. Venison cow pork loin ham, meatball swine porchetta beef ribs bresaola kielbasa boudin short loin tenderloin meatloaf.
+Larky for iOS makes it easy to add location-based notifications and valuable perk data to your native iOS app.  Getting started is as easy as TODO:  
+
+### Permissions
+
+---
+
+## Notifications
+
+TODO
+
+### Blacklist
+
+TODO
+
+### PerkSense
+
+TODO
+
+## Organizations
+
+TODO
+
+## Users
+
+TODO
+
+## Account Federation
+
+TODO
+
+## Memberships
+
+TODO
+
+## Categories
+
+TODO
+
+## Merchants
+
+TODO
+
+## Perks
+
+TODO
+
+## Redemption
+
+TODO
+
+## Affiliations
+
+TODO
+
+## Push Notifications
+
+TODO
+
+## Analytics
+
+TODO
+
+## Miscellaneous
+
+TODO
+
+---
 
 ## FAQ
 
-#### Spare ribs pig leberkas ball tip fatback?
+#### TODO
 
-Ground round tri-tip drumstick prosciutto frankfurter filet mignon. Flank meatloaf hamburger, salami kielbasa rump boudin pork loin cow kevin ground round ball tip biltong venison.
+TODO
 
 ## Troubleshooting
 
-Venison meatball beef ribs, boudin pastrami bresaola tongue pork belly chuck ball tip tenderloin rump brisket turducken ham. Ham hock tenderloin short loin doner.
+TODO
 
-#### Picanha prosciutto turducken swine pig brisket landjaeger?
+#### TODO
 
-* venison 
-* beef ribs 
-* pancetta 
-* salami 
-* rump 
-* spare ribs
+* TODO
+* TODO
+* TODO
